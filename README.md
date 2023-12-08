@@ -22,3 +22,4 @@ Android用户，可以使用 [Ipinfo.io MMDB Database Android](https://github.co
 8. 前往 `Settings->Security->Secrets and variables->Action->Repository secrets` 中新增`DLER_SUBSCRIBE_TOKEN` 值为 [Dlercloud](https://dlercloud.com) 所提供的SUBSCRIBE_TOKEN
 9. (Optional) 如需设置私有的个人代理配置，可以参考 `/proxies` 文件夹下的格式，新建一个私有工程，创建私有工程后前往 `Settings->Security->Secrets and variables->Action->Repository secrets` 中新增 `PERSONAL_PROXIES_GIT` 并设置值为 `USERNAME/YOURPROJECT.git`
 10. 手动Commit一次该工程，CI会自动运行，并将结果发布到你的Secret Gist中
+> 测试commit
